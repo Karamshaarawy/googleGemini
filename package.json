@@ -4,12 +4,14 @@
   "description": "using google gemini APIs intro following freecodecamp tutorials",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Karam Shaarawy",
   "license": "ISC",
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.7"
   }
 }
